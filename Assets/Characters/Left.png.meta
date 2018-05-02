@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-guid: 1cfb65de8d8848a4f8e81a4dfc609e0a
-timeCreated: 1525270950
+guid: 0601bcb74f4fbb14dafe5c5adb75ba48
+timeCreated: 1525271579
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Up_0
-    21300002: Up_1
-    21300004: Up_2
-    21300006: Up_3
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -89,63 +85,7 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Up_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 72
-        width: 34
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Up_1
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 70
-        width: 34
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Up_2
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 8
-        width: 34
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Up_3
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 6
-        width: 34
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
     physicsShape: []
   spritePackingTag: 

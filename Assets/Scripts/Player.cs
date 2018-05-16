@@ -24,10 +24,10 @@ public class Player : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
         Debug.Log(vertical);
+        Debug.Log(horizontal);
         HandleMovement(horizontal, vertical);
 
-        GetComponent<Animator>().SetFloat("vertMoves", vertical);
-
+        
     }
     private void HandleMovement(float horizontal, float vertical)
     {
@@ -42,6 +42,45 @@ public class Player : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Idle", false);
         }
-
+        if ( horizontal >= 1 || horizontal >=1 && vertical <= 1 || horizontal >=1 && vertical >= 1)
+        {
+            GetComponent<Animator>().SetBool("Right", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Right", false);
+        }
+        if (horizontal <= -1 || horizontal <= -1 && vertical <= 1 || horizontal <= -1 && vertical >= 1)
+        {
+            GetComponent<Animator>().SetBool("Left", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Left", false);
+        }
+        if (horizontal >= 1 || horizontal >= 1 && vertical <= 1 || horizontal >= 1 && vertical >= 1)
+        {
+            GetComponent<Animator>().SetBool("Right", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Right", false);
+        }
+        if (vertical <= -1)
+        {
+            GetComponent<Animator>().SetBool("Down", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Down", false);
+        }
+        if (vertical >= 1)
+        {
+            GetComponent<Animator>().SetBool("Up", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Up", false);
+        }
     }
 }
